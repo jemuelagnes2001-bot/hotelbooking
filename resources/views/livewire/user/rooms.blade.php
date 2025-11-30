@@ -65,6 +65,7 @@
 
 
         <label class="block font-semibold text-gray-700">Payment Receipt</label>
+        <span class="text-blue-700">Gcash Number: <span class="underline font-bold">09983845673</span></span>
         <input type="file" wire:model="receipt" class="w-full border p-2 rounded mb-2">
 
         @if ($receipt)

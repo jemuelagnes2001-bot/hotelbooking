@@ -19,7 +19,7 @@ class Bookings extends Component
     public function decline($id)
     {
         Booking::where('id', $id)->update([
-            'status' => 'declined'
+            'status' => 'rejected'
         ]);
 
         session()->flash('message', 'Booking declined.');
